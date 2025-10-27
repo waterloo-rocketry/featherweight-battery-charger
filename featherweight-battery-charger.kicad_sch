@@ -2,8 +2,14 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid 5889f758-61b0-4051-8dd5-ccc851807563)
+	(uuid "5889f758-61b0-4051-8dd5-ccc851807563")
 	(paper "A4")
+	(title_block
+		(title "Featherweight Battery Charger")
+		(date "2025-10-27")
+		(rev "v0")
+		(company "Waterloo Rocketry")
+	)
 	(lib_symbols)
 	(sheet_instances
 		(path "/"
