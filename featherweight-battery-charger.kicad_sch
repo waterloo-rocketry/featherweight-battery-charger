@@ -1810,6 +1810,12 @@
 		(uuid "f079ba50-a319-4459-be5f-be4f068ebbaf")
 	)
 	(junction
+		(at 144.78 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7d02866-0af9-47de-abe5-ee18a804ea95")
+	)
+	(junction
 		(at 163.83 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1894,6 +1900,16 @@
 			(type default)
 		)
 		(uuid "2dcb9ec6-8ca2-43f9-b7ba-663e9b8da97e")
+	)
+	(wire
+		(pts
+			(xy 163.83 109.22) (xy 163.83 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32aacd13-db93-4b24-857f-a2289e554b63")
 	)
 	(wire
 		(pts
@@ -2127,6 +2143,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 120.65) (xy 163.83 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3a8f008-4616-44e2-b7b1-a2bff70a7394")
+	)
+	(wire
+		(pts
 			(xy 80.01 101.6) (xy 80.01 106.68)
 		)
 		(stroke
@@ -2354,7 +2380,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "1uF"
 			(at 83.82 111.7599 0)
 			(effects
 				(font
@@ -3021,72 +3047,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 163.83 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6f181247-fe02-44c2-ae23-9294a2c9b66c")
-		(property "Reference" "#PWR04"
-			(at 163.83 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 163.83 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.83 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 163.83 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "579e134c-7317-4db5-8c01-723b2206d666")
-		)
-		(instances
-			(project "featherweight-battery-charger"
-				(path "/5889f758-61b0-4051-8dd5-ccc851807563"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 184.15 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3444,7 +3404,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+12V"
 			(at 57.15 96.52 0)
 			(effects
 				(font
