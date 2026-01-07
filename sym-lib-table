@@ -3,4 +3,5 @@
   (lib (name "canhw")(type "KiCad")(uri "${KIPRJMOD}/canhw.kicad_sym")(options "")(descr ""))
   (lib (name "clean_mos")(type "KiCad")(uri "${KIPRJMOD}/clean_mos.kicad_sym")(options "")(descr ""))
   (lib (name "flight_instr")(type "KiCad")(uri "${KIPRJMOD}/flight_instr.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS561208DDCR")(type "KiCad")(uri "${KIPRJMOD}/TPS561208DDCR.kicad_sym")(options "")(descr ""))
 )
