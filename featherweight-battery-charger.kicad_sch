@@ -1982,10 +1982,10 @@
 		(uuid "37da9410-c9e8-4ffc-a82d-8ac1a55ef921")
 	)
 	(junction
-		(at 153.67 100.33)
+		(at 148.59 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "61b77142-2619-4105-91b1-c4e6a6745afc")
+		(uuid "50370fa0-6d69-4297-8e11-f08230f042d9")
 	)
 	(junction
 		(at 190.5 100.33)
@@ -2006,7 +2006,7 @@
 		(uuid "b4b7f74e-0da7-4d6d-9a24-3d65294e963b")
 	)
 	(junction
-		(at 153.67 111.76)
+		(at 148.59 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c16d7893-7805-4b8d-b731-6f0545af72d2")
@@ -2053,7 +2053,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 100.33) (xy 153.67 100.33)
+			(xy 143.51 100.33) (xy 148.59 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2133,7 +2133,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 111.76) (xy 153.67 111.76)
+			(xy 113.03 111.76) (xy 148.59 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2263,7 +2263,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 100.33) (xy 153.67 101.6)
+			(xy 148.59 100.33) (xy 148.59 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2273,7 +2273,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 109.22) (xy 153.67 111.76)
+			(xy 148.59 109.22) (xy 148.59 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2293,7 +2293,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 120.65) (xy 161.29 120.65)
+			(xy 148.59 120.65) (xy 161.29 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2310,6 +2310,16 @@
 			(type default)
 		)
 		(uuid "9dea022f-2ccd-4111-bd15-728eed8e2e61")
+	)
+	(wire
+		(pts
+			(xy 148.59 100.33) (xy 170.18 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a17a167d-1a2a-4344-82b2-5e7effc84c7e")
 	)
 	(wire
 		(pts
@@ -2330,16 +2340,6 @@
 			(type default)
 		)
 		(uuid "a8c3f8d5-0da0-4e72-bcd1-914602eb68f1")
-	)
-	(wire
-		(pts
-			(xy 153.67 100.33) (xy 170.18 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "afd24b14-1a51-42b7-9f9d-5f642bfc3d5b")
 	)
 	(wire
 		(pts
@@ -2473,7 +2473,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 120.65) (xy 153.67 119.38)
+			(xy 148.59 120.65) (xy 148.59 119.38)
 		)
 		(stroke
 			(width 0)
@@ -3150,7 +3150,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 153.67 115.57 180)
+		(at 148.59 115.57 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3158,7 +3158,7 @@
 		(dnp no)
 		(uuid "61eddedf-56f4-4fc3-85ab-81425108663c")
 		(property "Reference" "R4"
-			(at 156.21 114.2999 0)
+			(at 151.13 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3167,7 +3167,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 156.21 116.8399 0)
+			(at 151.13 116.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3176,7 +3176,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.654 115.316 90)
+			(at 147.574 115.316 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3185,7 +3185,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 153.67 115.57 0)
+			(at 148.59 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3194,7 +3194,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 153.67 115.57 0)
+			(at 148.59 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3844,7 +3844,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 153.67 105.41 180)
+		(at 148.59 105.41 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3853,7 +3853,7 @@
 		(fields_autoplaced yes)
 		(uuid "c52229f4-28bb-4bbc-827c-9d2d8768f134")
 		(property "Reference" "R3"
-			(at 156.21 104.1399 0)
+			(at 151.13 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3862,7 +3862,7 @@
 			)
 		)
 		(property "Value" "54.9k"
-			(at 156.21 106.6799 0)
+			(at 151.13 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3871,7 +3871,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.654 105.156 90)
+			(at 147.574 105.156 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3880,7 +3880,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 153.67 105.41 0)
+			(at 148.59 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3889,7 +3889,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 153.67 105.41 0)
+			(at 148.59 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
