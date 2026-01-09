@@ -2083,6 +2083,12 @@
 		(uuid "3b246f1c-2a25-4fb9-a716-4ef3b0349837")
 	)
 	(junction
+		(at 71.12 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e84abe3-7f8c-4818-9841-938f421bb48a")
+	)
+	(junction
 		(at 238.76 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2113,6 +2119,12 @@
 		(uuid "50370fa0-6d69-4297-8e11-f08230f042d9")
 	)
 	(junction
+		(at 67.31 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96edc2eb-bbc4-451c-a741-218fa4757c50")
+	)
+	(junction
 		(at 196.85 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2125,28 +2137,22 @@
 		(uuid "b307aedd-217f-4eb7-a52d-596a17a0f7f3")
 	)
 	(junction
-		(at 69.85 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b4b7f74e-0da7-4d6d-9a24-3d65294e963b")
-	)
-	(junction
 		(at 152.4 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c16d7893-7805-4b8d-b731-6f0545af72d2")
 	)
 	(junction
-		(at 66.04 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e57c77a0-f95d-412a-beb5-bdca7f92874b")
-	)
-	(junction
 		(at 83.82 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f079ba50-a319-4459-be5f-be4f068ebbaf")
+	)
+	(junction
+		(at 67.31 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f91f975e-c3a1-4c3d-ba41-9cf52384d2bb")
 	)
 	(no_connect
 		(at 39.37 100.33)
@@ -2198,6 +2204,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 97.79) (xy 63.5 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "112f790e-dd9a-40ca-81c3-d91338735b71")
+	)
+	(wire
+		(pts
 			(xy 238.76 102.87) (xy 257.81 102.87)
 		)
 		(stroke
@@ -2228,13 +2244,13 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 107.95) (xy 69.85 107.95)
+			(xy 71.12 97.79) (xy 83.82 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "20e2eba5-a443-43c2-a842-82a6bbf9da6d")
+		(uuid "1f1d06e2-6440-4963-912f-5eda1fb5a141")
 	)
 	(wire
 		(pts
@@ -2288,16 +2304,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 97.79) (xy 69.85 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e5c1e6e-944e-4d09-8592-78ad39a52da0")
-	)
-	(wire
-		(pts
 			(xy 252.73 105.41) (xy 257.81 105.41)
 		)
 		(stroke
@@ -2308,7 +2314,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 107.95) (xy 66.04 109.22)
+			(xy 67.31 107.95) (xy 67.31 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2388,7 +2394,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 96.52) (xy 130.81 96.52)
+			(xy 133.35 96.52) (xy 127 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2418,7 +2424,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 95.25) (xy 63.5 97.79)
+			(xy 67.31 95.25) (xy 67.31 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2448,7 +2454,17 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 97.79) (xy 69.85 100.33)
+			(xy 67.31 107.95) (xy 71.12 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "977e2531-5945-4512-a747-97e0d29722b7")
+	)
+	(wire
+		(pts
+			(xy 71.12 97.79) (xy 71.12 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2488,17 +2504,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 97.79) (xy 83.82 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6f0a4cc-1691-4249-92d8-201ceb98944b")
-	)
-	(wire
-		(pts
-			(xy 116.84 96.52) (xy 123.19 96.52)
+			(xy 116.84 96.52) (xy 119.38 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2518,7 +2524,17 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 107.95) (xy 66.04 107.95)
+			(xy 67.31 97.79) (xy 71.12 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c912d430-287c-4c11-ad86-31d29028e66a")
+	)
+	(wire
+		(pts
+			(xy 63.5 107.95) (xy 67.31 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2929,87 +2945,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Battery_Management:MCP73832-2-OT")
-		(at 214.63 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "16a84f60-8407-46a8-ab42-8fd9b2910f16")
-		(property "Reference" "U1"
-			(at 216.7733 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MCP73832-2-OT"
-			(at 216.7733 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 215.9 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf"
-			(at 214.63 124.206 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single cell, Li-Ion/Li-Po charge management controller, 4.20V, Open-Drain Status Output, in SOT23-5 package"
-			(at 214.63 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fcc23859-cb40-4b81-a698-9df97281086f")
-		)
-		(pin "5"
-			(uuid "e343bfcf-a202-49d7-9466-bcb75c2bb35f")
-		)
-		(pin "4"
-			(uuid "dcfc3f94-4c2b-43d2-ab44-86c71d80a18a")
-		)
-		(pin "1"
-			(uuid "f703c33e-c369-48c3-aca2-5ecfe4feb129")
-		)
-		(pin "3"
-			(uuid "8faa5edc-0042-441e-b4c8-a64c5062b4e8")
-		)
-		(instances
-			(project ""
-				(path "/5889f758-61b0-4051-8dd5-ccc851807563"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 173.99 93.98 0)
 		(unit 1)
@@ -3070,6 +3005,87 @@
 			(project ""
 				(path "/5889f758-61b0-4051-8dd5-ccc851807563"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battery_Management:MCP73832-2-OT")
+		(at 214.63 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "269cefb6-efd4-4c2c-816d-aab9798f40ab")
+		(property "Reference" "U1"
+			(at 216.7733 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MCP73832-2-OT"
+			(at 216.7733 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 215.9 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf"
+			(at 214.63 124.206 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single cell, Li-Ion/Li-Po charge management controller, 4.20V, Open-Drain Status Output, in SOT23-5 package"
+			(at 214.63 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "0afd93b3-cfbf-404f-8ef0-7334ae988223")
+		)
+		(pin "4"
+			(uuid "4a066b2e-75d7-47b8-870a-c8766d1b595f")
+		)
+		(pin "2"
+			(uuid "94a2153f-2b00-4f45-a0c2-95ce0338ee90")
+		)
+		(pin "3"
+			(uuid "35b64c41-7c12-483b-ad79-cc96d47b1a09")
+		)
+		(pin "1"
+			(uuid "76b3d071-beae-40d3-ba73-b21e06d0639d")
+		)
+		(instances
+			(project ""
+				(path "/5889f758-61b0-4051-8dd5-ccc851807563"
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -3157,7 +3173,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 127 96.52 90)
+		(at 123.19 96.52 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3166,7 +3182,7 @@
 		(fields_autoplaced yes)
 		(uuid "389601cd-2a9f-4572-aa36-72deb6eb9c9f")
 		(property "Reference" "C2"
-			(at 127 88.9 90)
+			(at 123.19 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3174,7 +3190,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 127 91.44 90)
+			(at 123.19 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3182,7 +3198,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
-			(at 130.81 95.5548 0)
+			(at 127 95.5548 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3191,7 +3207,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 96.52 0)
+			(at 123.19 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3200,7 +3216,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 127 96.52 0)
+			(at 123.19 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3500,7 +3516,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 69.85 104.14 180)
+		(at 71.12 104.14 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3509,7 +3525,7 @@
 		(fields_autoplaced yes)
 		(uuid "63eb06eb-e0d1-43cf-a196-29d707acba8f")
 		(property "Reference" "C4"
-			(at 73.66 102.8699 0)
+			(at 74.93 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3518,7 +3534,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 73.66 105.4099 0)
+			(at 74.93 105.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3527,7 +3543,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
-			(at 68.8848 100.33 0)
+			(at 70.1548 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3536,7 +3552,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 69.85 104.14 0)
+			(at 71.12 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3545,7 +3561,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 69.85 104.14 0)
+			(at 71.12 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3923,7 +3939,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 66.04 109.22 0)
+		(at 67.31 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3932,7 +3948,7 @@
 		(fields_autoplaced yes)
 		(uuid "8af5ccf8-0e9a-410b-8257-cb47c7e192ee")
 		(property "Reference" "#PWR05"
-			(at 66.04 115.57 0)
+			(at 67.31 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3941,7 +3957,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 66.04 114.3 0)
+			(at 67.31 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3949,7 +3965,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 109.22 0)
+			(at 67.31 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3958,7 +3974,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 109.22 0)
+			(at 67.31 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3967,7 +3983,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 66.04 109.22 0)
+			(at 67.31 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3989,7 +4005,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 63.5 95.25 0)
+		(at 67.31 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3998,7 +4014,7 @@
 		(fields_autoplaced yes)
 		(uuid "aeaea714-b53e-40b6-a8cf-3b2fa43df419")
 		(property "Reference" "#PWR04"
-			(at 63.5 99.06 0)
+			(at 67.31 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4007,7 +4023,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 63.5 90.17 0)
+			(at 67.31 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4015,7 +4031,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 95.25 0)
+			(at 67.31 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4024,7 +4040,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 95.25 0)
+			(at 67.31 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4033,7 +4049,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 63.5 95.25 0)
+			(at 67.31 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4206,7 +4222,7 @@
 				)
 			)
 		)
-		(property "Value" "ASPI-4030S-4R7M-T (4.7uH)"
+		(property "Value" "NRS4018T4R7MDGJ (4.7uH)"
 			(at 144.78 92.456 90)
 			(effects
 				(font
@@ -4214,7 +4230,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Abracon_ASPI-4030S"
+		(property "Footprint" "Inductor_SMD:L_Taiyo-Yuden_NR-40xx_HandSoldering"
 			(at 143.51 96.52 0)
 			(effects
 				(font
