@@ -92,7 +92,7 @@
 		(descr "Diode SMA (DO-214AC)")
 		(tags "Diode SMA (DO-214AC)")
 		(property "Reference" "D2"
-			(at 0 -2.5 90)
+			(at -4.2848 0 180)
 			(layer "F.SilkS")
 			(uuid "50267961-ff9e-4036-a083-3f26fe14d31a")
 			(effects
@@ -365,7 +365,7 @@
 		(descr "Fuse SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "fuse handsolder")
 		(property "Reference" "F1"
-			(at 1.9929 0 90)
+			(at 1.9929 0 180)
 			(layer "F.SilkS")
 			(uuid "2c7d6d2f-1eab-4d1f-9604-6e5b8f1fdb04")
 			(effects
@@ -565,7 +565,7 @@
 		(descr "JST VH series connector, S2P-VH (http://www.jst-mfg.com/product/pdf/eng/eVH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST VH horizontal")
 		(property "Reference" "J4"
-			(at 2.2582 -2.1336 90)
+			(at 1.472 -2.5 180)
 			(layer "F.SilkS")
 			(uuid "4ae92c44-90ba-46bb-b5bb-0e2ee2fe6f51")
 			(effects
@@ -1219,7 +1219,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R2"
-			(at -2.6111 -0.08 0)
+			(at 0 1.3716 180)
 			(layer "F.SilkS")
 			(uuid "19874df2-ed39-452e-9f91-57644454da83")
 			(effects
@@ -1418,7 +1418,7 @@
 		(descr "JST PH series connector, S2B-PH-K (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST PH horizontal")
 		(property "Reference" "J3"
-			(at 5.2926 -0.1154 270)
+			(at 5.2418 -0.852 0)
 			(layer "F.SilkS")
 			(uuid "9164b9ae-11a1-4641-b5ce-4c36da111dba")
 			(effects
@@ -1924,6 +1924,7 @@
 		(property "Reference" "H1"
 			(at 0 -4.15 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "65b08893-d097-4d3d-bad6-83e52a97e06a")
 			(effects
 				(font
@@ -2026,7 +2027,7 @@
 		(descr "JST PH series connector, S2B-PH-K (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST PH horizontal")
 		(property "Reference" "J2"
-			(at 5.3782 0 0)
+			(at 1 -1.8746 180)
 			(layer "F.SilkS")
 			(uuid "7191c67d-3953-4735-a1ce-5cc5793390af")
 			(effects
@@ -2530,7 +2531,7 @@
 		(descr "LED SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
 		(property "Reference" "D1"
-			(at 0 -1.83 90)
+			(at 3.1639 0 180)
 			(layer "F.SilkS")
 			(uuid "e8e55a91-9cbf-4bca-bf36-20d12148e0ac")
 			(effects
@@ -2764,7 +2765,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C2"
-			(at -2.6173 0 90)
+			(at 2.3877 0 180)
 			(layer "F.SilkS")
 			(uuid "00d64480-019a-4cf0-9c0c-405a021a426d")
 			(effects
@@ -2965,7 +2966,8 @@
 		(property "Reference" "H2"
 			(at 0 -4.15 0)
 			(layer "F.SilkS")
-			(uuid "ef91b1c7-80d5-4dd0-87d6-724d72624c44")
+			(hide yes)
+			(uuid "f2bfd5e0-c013-4d52-b7ce-505230ef498e")
 			(effects
 				(font
 					(size 1 1)
@@ -2976,7 +2978,7 @@
 		(property "Value" "MountingHole"
 			(at 0 4.15 0)
 			(layer "F.Fab")
-			(uuid "7a772039-b3d9-4092-88ea-bad44a7892d3")
+			(uuid "58e160e3-b52b-49eb-a74d-57ee5b4ab3b6")
 			(effects
 				(font
 					(size 1 1)
@@ -2988,7 +2990,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a121620e-b4be-4749-8674-f48e6dede86f")
+			(uuid "df840331-a67e-49f0-9f19-fe56b4219efd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3000,7 +3002,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "319fa2b7-f65b-4771-b326-64be44c3321a")
+			(uuid "59583b7d-c6d3-467b-92db-6db5e9b25c29")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3067,7 +3069,7 @@
 		(descr "SOT, 5 Pin (JEDEC MO-178 Var AA https://www.jedec.org/document_search?search_api_views_fulltext=MO-178), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U1"
-			(at 0.036098 -2.5608 0)
+			(at 0.4064 -2.5248 0)
 			(layer "B.SilkS")
 			(uuid "ec8db76d-0ddd-412d-9287-0b8f6c337e7a")
 			(effects
@@ -3376,7 +3378,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R1"
-			(at 2.7305 -0.041598 0)
+			(at 2.5908 0.0359 0)
 			(layer "B.SilkS")
 			(uuid "e231efc1-96a5-4fb9-96cc-318962126ba3")
 			(effects
@@ -3973,6 +3975,42 @@
 		(fill no)
 		(layer "User.2")
 		(uuid "f3d259a4-7ee9-4dc4-8e1f-ed43ffc1a273")
+	)
+	(gr_text "+5V"
+		(at 147.6902 82.0674 0)
+		(layer "F.SilkS")
+		(uuid "1f78b90a-9140-4626-87b7-3849680a7aa2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "BATT+"
+		(at 152.7302 104.4702 90)
+		(layer "F.SilkS")
+		(uuid "e41072e4-59ec-48c0-8719-e329d152d632")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "BATT+"
+		(at 145.8468 91.948 0)
+		(layer "F.SilkS")
+		(uuid "f0226b8f-6e78-4964-ba22-ded2b715d8b5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
 	)
 	(dimension
 		(type orthogonal)
